@@ -50,7 +50,7 @@ const ImagePreview = ({ uploaded, enhanced, loading }) => {
         {enhanced && !loading ? (
           <a
             href={enhanced}
-            // download="enhanced_image.jpg"
+            download="enhanced_image.jpg"
             className="px-6 py-2 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700"
           >
             Download
